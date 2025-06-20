@@ -23,6 +23,10 @@ An Android memory matching game built with Kotlin. Challenge your memory by matc
 
 ![WrongGIF](https://github.com/user-attachments/assets/a34097cc-7860-4873-86c6-d8c18d0c5227)
 
+![CorrectGIF](https://github.com/user-attachments/assets/3a7c0397-ccd9-4d7d-a027-560f04b796fd)
+
+![NewGIF](https://github.com/user-attachments/assets/124ed211-c830-4a53-8129-0f3378b0ca5e)
+
 ---
 
 ## How to Play
