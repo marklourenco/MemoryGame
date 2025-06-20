@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fruitbg"
+    tools:context=".PlayActivity">
+
+    <com.example.memorygame.SquareFrameLayout
+        android:id="@+id/gameLayout_id"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </com.example.memorygame.SquareFrameLayout>
+
+    <Button
+        android:id="@+id/newGame_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="New Game"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/gameLayout_id"
+        app:layout_constraintTop_toBottomOf="@+id/gameLayout_id"
+        app:strokeColor="#000000" />
+
+    <TextView
+        android:id="@+id/wrong_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_bhai"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/gameLayout_id"
+        app:layout_constraintEnd_toEndOf="@+id/gameLayout_id" />
+
+    <Button
+        android:id="@+id/homeButton_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00CA5F5F"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="Home"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/newGame_id"
+        app:layout_constraintStart_toStartOf="@+id/gameLayout_id"
+        app:layout_constraintTop_toTopOf="@+id/newGame_id" />
+</androidx.constraintlayout.widget.ConstraintLayout>
