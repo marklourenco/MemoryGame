@@ -42,7 +42,7 @@ An Android memory matching game built with Kotlin. Challenge your memory by matc
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/fruit-match-game.git
+   git clone https://github.com/marklourenco/memorygame.git
    ```
 2. Open the project in Android Studio.
 3. Build and run the app on your emulator or device.
