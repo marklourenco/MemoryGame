@@ -21,11 +21,12 @@ An Android memory matching game built with Kotlin. Challenge your memory by matc
 
 <table>
   <tr>
-    <td>![MemoryHighScoreGif](https://github.com/user-attachments/assets/d1120ea6-ccfa-493f-9cf8-e2e963f5810b) width="300"/></td>
-    <td>![MemoryHighScoreGif](https://github.com/user-attachments/assets/d1120ea6-ccfa-493f-9cf8-e2e963f5810b) width="300"/></td>
-   <td>![MemoryHighScoreGif](https://github.com/user-attachments/assets/d1120ea6-ccfa-493f-9cf8-e2e963f5810b) width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/d1120ea6-ccfa-493f-9cf8-e2e963f5810b" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/d1120ea6-ccfa-493f-9cf8-e2e963f5810b" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/d1120ea6-ccfa-493f-9cf8-e2e963f5810b" width="300"/></td>
   </tr>
 </table>
+
 
 ---
 
