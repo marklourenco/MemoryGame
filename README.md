@@ -19,13 +19,13 @@ An Android memory matching game built with Kotlin. Challenge your memory by matc
 
 ## Gameplay
 
-![InitialGIF](https://github.com/user-attachments/assets/ca78f1b5-3fbe-452d-8fcf-a40313c1474c)
-
-![WrongGIF](https://github.com/user-attachments/assets/a34097cc-7860-4873-86c6-d8c18d0c5227)
-
-![CorrectGIF](https://github.com/user-attachments/assets/3a7c0397-ccd9-4d7d-a027-560f04b796fd)
-
-![NewGIF](https://github.com/user-attachments/assets/124ed211-c830-4a53-8129-0f3378b0ca5e)
+<table>
+  <tr>
+    <td>![MemoryHighScoreGif](https://github.com/user-attachments/assets/d1120ea6-ccfa-493f-9cf8-e2e963f5810b) width="300"/></td>
+    <td>![MemoryHighScoreGif](https://github.com/user-attachments/assets/d1120ea6-ccfa-493f-9cf8-e2e963f5810b) width="300"/></td>
+   <td>![MemoryHighScoreGif](https://github.com/user-attachments/assets/d1120ea6-ccfa-493f-9cf8-e2e963f5810b) width="300"/></td>
+  </tr>
+</table>
 
 ---
 
