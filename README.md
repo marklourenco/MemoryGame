@@ -58,7 +58,7 @@ An Android memory matching game built with Kotlin. Challenge your memory by matc
 
 ## Technologies Used
 
-* Kotlin
+* Kotlin 2.0.21
 * Android Studio
 
 ---
