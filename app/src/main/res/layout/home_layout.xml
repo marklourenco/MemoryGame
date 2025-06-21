@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fruitbg"
     tools:context=".HomeActivity">
 
     <TextView
@@ -25,8 +26,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:backgroundTint="#00FFFFFF"
         android:fontFamily="@font/baloo_bhai"
         android:text="PLAY"
+        android:textColor="@color/black"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleTextView_id" />
@@ -35,7 +39,7 @@
         android:id="@+id/difficultyBar_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="4x4"
+        android:text="4x4  "
         app:layout_constraintEnd_toEndOf="@+id/playButton_id"
         app:layout_constraintStart_toStartOf="@+id/playButton_id"
         app:layout_constraintTop_toBottomOf="@+id/playButton_id" />

@@ -11,6 +11,7 @@ fun PlayActivity.restart() {
         supportFragmentManager.beginTransaction().remove(frag).commit()
     }
 
+    AppData.difficulty = 4
     gameActive = false
     secondTap = false
     foundCards.clear()

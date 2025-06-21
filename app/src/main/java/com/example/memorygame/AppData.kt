@@ -29,8 +29,8 @@ data class Card (var myContext: Context, var value: String) : AppCompatTextView 
 
     fun updateTile ()
     {
-        val oa1 = ObjectAnimator.ofFloat(this, "scaleX", 1f, 0f)
-        val oa2 = ObjectAnimator.ofFloat(this, "scaleX", 0f, 1f)
+        val oa1 = ObjectAnimator.ofFloat(this, "rotationY", 0f, 90f)
+        val oa2 = ObjectAnimator.ofFloat(this, "rotationY", 90f, 0f)
 
         oa1.duration = 250
         oa2.duration = 250

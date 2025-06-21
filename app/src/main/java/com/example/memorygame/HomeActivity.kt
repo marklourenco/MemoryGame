@@ -29,12 +29,12 @@ class HomeActivity : AppCompatActivity() {
         difficultyBar.setOnCheckedChangeListener { _, isChecked ->
             if (isChecked)
             {
-                difficultyBar.text = "6x6"
+                difficultyBar.text = "6x6  "
                 AppData.difficulty = 6
             }
             else
             {
-                difficultyBar.text = "4x4"
+                difficultyBar.text = "4x4  "
                 AppData.difficulty = 4
             }
         }
