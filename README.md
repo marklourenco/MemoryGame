@@ -13,6 +13,8 @@ An Android memory matching game built with Kotlin. Challenge your memory by matc
   * Flip cards to find matching fruit pairs.
   * Every incorrect match adds one “X” (a strike).
   * Reach 5 strikes and you lose the game.
+* **Timer:** Track how long you take to complete each game.
+* **High Scores:** The fastest completion time for each difficulty is saved locally and displayed on the high score screen.
 * **Replay Options:** After losing, choose to go back to the home screen or play again.
 
 ---
@@ -37,7 +39,8 @@ An Android memory matching game built with Kotlin. Challenge your memory by matc
 4. Flip two cards at a time to find matching pairs.
 5. If the cards don't match, you receive one strike (X).
 6. Accumulate 5 strikes and the game ends.
-7. Choose to return home or try again.
+7. Complete the game in the shortest time possible to set a new high score!
+8. Choose to return home or try again.
 
 ---
 
@@ -62,7 +65,15 @@ An Android memory matching game built with Kotlin. Challenge your memory by matc
 
 ## Project Structure
 
-* `MainActivity.kt` – Home screen with grid size selection.
-* `GameActivity.kt` – Game screen handling gameplay and logic.
+* `AppData.kt` – Card class, card states, updates tiles and keeps track of difficulty.
+* `MainActivity.kt` – The main menu screen. Lets the player choose between 4x4 and 6x6 difficulty using a switch, start a new game, and view the saved high score for the selected difficulty.
+* `GameActivity.kt` – Handles the main gameplay screen: card flipping logic, timer, tracking strikes, and saving high scores. Also manages win/loss conditions.
 * Layout XML files for each activity.
 * Drawable resources for fruit images and UI elements.
+* Local JSON file storage for high score tracking.
+
+---
+
+## Special Thanks
+
+A special thanks to my **Intro to Mobile Programming** teacher, **Amir Jahanlou**.
