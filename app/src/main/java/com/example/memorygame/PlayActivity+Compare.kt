@@ -40,5 +40,11 @@ fun PlayActivity.compare ()
         newGameButton.visibility = Button.VISIBLE
         homeButton.visibility = Button.VISIBLE
         handler.removeCallbacks(updateTimer)
+        for (card in currentTiles) {
+            if (card.tileState == State.DOWN) {
+                card.tileState = State.UP
+                card.updateTile()
+            }
+        }
     }
 }

@@ -18,6 +18,7 @@ fun PlayActivity.restart() {
     wrong.text = ""
     newGameButton.visibility = Button.GONE
     homeButton.visibility = Button.GONE
+    resetTimer()
 
     supportFragmentManager.beginTransaction()
         .add(R.id.gameLayout_id, GameFragment.newInstance(gridSize), "game")
