@@ -19,6 +19,8 @@ fun PlayActivity.compare ()
         {
             newGameButton.visibility = Button.VISIBLE
             homeButton.visibility = Button.VISIBLE
+            handler.removeCallbacks(updateTimer)
+            saveHighScore(difficulty, elapsedMillis)
         }
     }
     else
@@ -28,6 +30,7 @@ fun PlayActivity.compare ()
         card2.tileState = State.DOWN
         card2.updateTile()
         wrong.text = wrong.text.toString() + "❌"
+
     }
     gameActive = true
 
@@ -36,5 +39,6 @@ fun PlayActivity.compare ()
         gameActive = false
         newGameButton.visibility = Button.VISIBLE
         homeButton.visibility = Button.VISIBLE
+        handler.removeCallbacks(updateTimer)
     }
 }
