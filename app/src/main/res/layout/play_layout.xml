@@ -57,13 +57,4 @@
         app:layout_constraintStart_toStartOf="@+id/gameLayout_id"
         app:layout_constraintTop_toTopOf="@+id/newGame_id" />
 
-    <TextView
-        android:id="@+id/timer_id"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="50dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/gameLayout_id"
-        app:layout_constraintEnd_toEndOf="@+id/gameLayout_id"
-        app:layout_constraintStart_toStartOf="@+id/gameLayout_id" />
 </androidx.constraintlayout.widget.ConstraintLayout>
