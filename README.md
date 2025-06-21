@@ -71,9 +71,3 @@ An Android memory matching game built with Kotlin. Challenge your memory by matc
 * Layout XML files for each activity.
 * Drawable resources for fruit images and UI elements.
 * Local JSON file storage for high score tracking.
-
----
-
-## Special Thanks
-
-A special thanks to my **Intro to Mobile Programming** teacher, **Amir Jahanlou**.
